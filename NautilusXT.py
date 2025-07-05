@@ -119,7 +119,7 @@ root.title("Nautilus XT")
 root.geometry("322x318") 
 root.resizable(False, False)
 
-icon_path_ico = os.path.join(os.path.dirname(__file__), "nautilus_xt.ico") # Windows
+icon_path_ico = os.path.join(os.path.dirname(__file__), "nautilus_xt_512.ico") # Windows
 icon_path_png = os.path.join(os.path.dirname(__file__), "nautilus_xt.png") # Linux / Mac OS
 
 if platform.system() == "Windows":
